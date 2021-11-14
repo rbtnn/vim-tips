@@ -13,6 +13,7 @@ LICENSE: MIT license (see LICENSE.txt)
 スクリプトファイルがあるディレクトリを取得する                        |tips_5|
 同一視されるキー                                                      |tips_6|
 カーソルを任意のvcolに移動する                                        |tips_7|
+Quickfixの選択行を取得する                                            |tips_8|
 
 
 
@@ -79,5 +80,18 @@ LICENSE: MIT license (see LICENSE.txt)
 
 参考: https://github.com/vim/vim/issues/7964
 
+------------------------------------------------------------------------------
+Quickfixの選択行を取得する                                            *tips_8*
+
+|getqflist()|に`{ 'idx': 0 }`を渡すと選択行を取得することができる。
+もしquickfixに選択行がない場合、そのidxには0が設定される。
+>
+    echo getqflist({ 'idx': 0 })
+    { 'idx': 3 }
+
+    call setqflist([])
+    echo getqflist({ 'idx': 0 })
+    { 'idx': 0 }
+<
 ==============================================================================
 vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
