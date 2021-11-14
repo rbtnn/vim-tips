@@ -12,5 +12,8 @@ Vim scriptのTipsを日本語ヘルプでまとめることが目的です。
 + [カーソルを任意のvcolに移動する](https://github.com/rbtnn/vim-tips/blob/main/doc/tips.jax#L67)
 + [Quickfixの選択行を取得する](https://github.com/rbtnn/vim-tips/blob/main/doc/tips.jax#L84)
 
+## vimrcアンチパターン
+https://github.com/vim-jp/reading-vimrc/wiki/vimrc%E3%82%A2%E3%83%B3%E3%83%81%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3
+
 ## License
 Distributed under MIT License. See LICENSE.
