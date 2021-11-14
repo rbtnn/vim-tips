@@ -23,6 +23,9 @@ function! s:main() abort
 	endfor
 	let lines += [
 		\ '',
+		\ '## vimrcアンチパターン',
+		\ 'https://github.com/vim-jp/reading-vimrc/wiki/vimrc%E3%82%A2%E3%83%B3%E3%83%81%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3',
+		\ '',
 		\ '## License',
 		\ 'Distributed under MIT License. See LICENSE.',
 		\ ]
